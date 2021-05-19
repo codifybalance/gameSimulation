@@ -18,8 +18,6 @@ public class Main {
 
 		Campaign campaign1 = new Campaign(1,"%50 Campaign",50);
 
-		
-		//BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 		GamerManager gamerManager = new GamerManager(new MernisServiceAdapter());
 		gamerManager.Save(gamer1);
 		
